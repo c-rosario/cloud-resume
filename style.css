@@ -1,0 +1,26 @@
+  body {
+    height: 100%; /* Make sure the parent is full height */
+    margin: 0; /* Reset default margin */
+    display: flex; /* Make the body a flex container */
+    flex-direction: column;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */ 
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 40px;
+  }
+
+   #name {
+    font-size: 40px;
+  }
+
+  #address {
+    font-size: 25px;
+  }
+  
+
